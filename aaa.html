@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body onload="load()">
+
+</body>
+<script>
+    function load() {
+        if (getsession == "") {
+            window.top.location.assign("dat/load.php");
+
+        } else {
+
+            window.top.location.assign("shop.html");
+        }
+    };
+
+</script>
+
+</html>

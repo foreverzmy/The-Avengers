@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/video.css">
+</head>
+
+<body>
+    <div id="video">
+        <video id="myVideo" width="480" height="320" poster="img/avengers3.jpg">
+            <source src="img/captain.mov">
+        </video>
+        <canvas id="myCanvas" width="650" height="360"></canvas>
+        <div class="controls">
+            <div id="playtime">
+                <input type="range" id="range" max="100" min="0" step="1" value="0">
+                <p style="margin-left:10px"><span>0</span>s/</p>
+                <p><span></span>s.</p>
+                <label for="volume" id="labelvolume">Volume: </label>
+                <input type="range" id="volume" max="100" step="1">
+            </div>
+        </div>
+        <div class="container">
+            <canvas width="90" height="28" id="play"></canvas>
+            <canvas width="90" height="28" id="pause"></canvas>
+            <canvas width="90" height="28"></canvas>
+            <canvas width="90" height="28"></canvas>
+            <canvas width="90" height="28"></canvas>
+        </div>
+    </div>
+</body>
+<script src="js/video3.js"></script>
+
+</html>

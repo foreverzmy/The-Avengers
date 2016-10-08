@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>周边购买</title>
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+
+<body>
+
+    <input id="time" type="text">
+    <div class="nav">
+        <iframe src="header.html" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div id="lalala">
+        <div id="source">
+            <div id="img"><img src="img/drag.gif" alt="pic1" id="pic"></div>
+        </div>
+        <div id="target">
+            <div id="target1">
+                <img src="img/trash.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section id="thumbnail">
+        <table>
+            <tr>
+                <td class="tdimg" rowspan="3"> <img src="img/b1.jpg" alt="thumb1"></td>
+                <td>
+                    <h1>复仇者联盟棒球帽</h1></td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>材质： 亚麻+棉+羊毛（薄款）<br>型号： 调节款/后扣款（有调节扣调节帽围大小）
+                <br>尺码： 男女都能戴（适合 56 - 62 cm 左右头围）<br>
+                价格： 50元<br>
+            </h3></td>
+            </tr>
+            <tr>
+                <td>购买个数:
+
+                    <button id="less1">-</button>
+                    <input id="num1" type="text" value="0" onkeyup="this.value=this.value.replace(/[^\d]/ig,'')">
+                    <button id="add1">+</button>
+                    <br>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="tdimg" rowspan="3"><img src="img/bn2.jpg" alt="thumb2"></td>
+                <td>
+                    <h1>英雄钥匙扣</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>
+               型号： 钢铁侠,美国队长,雷神,蜘蛛侠 (随机发)<br>
+               材质： 橡胶,合金<br>
+               价格： 30元<br>
+            </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    购买个数:
+                    <button id="less2">-</button>
+                    <input id="num2" type="text" value="0" onkeyup="this.value=this.value.replace(/[^\d]/ig,'')">
+                    <button id="add2">+</button>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="tdimg" rowspan="3"> <img src="img/b4.jpg" alt="thumb3"></td>
+                <td>
+                    <h1>钢铁侠手办</h1></td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>材质： ABS,PVC</h3>
+                    <h3>
+                尺寸： 全高约15.5cm<br>
+                发售日期： 2015年10月<br>
+                价格： 600元<br>
+            </h3></td>
+            </tr>
+            <tr>
+                <td> 购买个数:
+                    <button id="less3">-</button>
+                    <input id="num3" type="text" value="0" onkeyup="this.value=this.value.replace(/[^\d]/ig,'')">
+                    <button id="add3">+</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <div id="jiesuan">
+        <label for="result">总价:</label>
+        <input type="text" id="result" value="0">
+        <button id="submit">确认下单</button>
+    </div>
+    <div id="gomai">
+        <button id="show">显示购买记录</button>
+        <div class="container">
+        </div>
+    </div>
+    <footer id="footer" style="width:100%;height:50px; margin-top:-30px; border-top:1px solid #000">
+        <iframe style="margin-top:5px" height="50px" src="footer.html" frameborder="0"></iframe>
+    </footer>
+
+    <div id="retop">
+        <a href="#"><img width="15px" src="img/upload.png" alt="">top</a>
+    </div>
+</body>
+
+<script src="js/shop.js"></script>
+<script src="js/jquery.js"></script>
+
+</html>
