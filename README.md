@@ -14,5 +14,24 @@
 
 > drag&drop 
 
->> 使用了原生的drag&drop,可以对一些页面元素进行拖到欧盟。
+>> 使用了原生的drag&drop,可以对一些页面元素进行拖放操作。
 
+> Webworker
+
+>> 使用了Webworker，可以进行简单地价格计算。
+
+> webStorage
+
+>> 使用localstorage对用户账户进行了保存，不用每次登录都输入账户。
+
+> indexedDB 
+
+>> 使用了indexedDB本地数据库，对数据存储。
+
+> AJAX
+
+>>使用了AJAX与在注册和登录界面与后端进行交互。
+
+> php && Mysql
+
+>> 使用php对数据库操作，实现了注册和登录。
